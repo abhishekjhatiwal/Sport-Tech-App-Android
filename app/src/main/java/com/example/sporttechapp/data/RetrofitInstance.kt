@@ -10,7 +10,7 @@ object RetrofitInstance {
 
     private val retrofit by lazy {
         Retrofit.Builder()
-            .baseUrl("https://example.com/") // Change to your API base URL
+            .baseUrl("https://via.placeholder.com/") // Change to your API base URL
             .addConverterFactory(MoshiConverterFactory.create(moshi))
             .build()
     }

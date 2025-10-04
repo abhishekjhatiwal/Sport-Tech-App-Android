@@ -34,3 +34,42 @@ fun SkillsScreen(viewModel: SkillViewModel) {
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+@Composable
+fun SkillsScreen() {
+    val allSkills = SampleData.skills
+
+    val basicSkills = allSkills.filter { it.level == "Basic" }
+    val intermediateSkills = allSkills.filter { it.level == "Intermediate" }
+    val advancedSkills = allSkills.filter { it.level == "Advanced" }
+
+    Column {
+        SkillSection("Basic", basicSkills)
+        SkillSection("Intermediate", intermediateSkills)
+        SkillSection("Advanced", advancedSkills)
+    }
+}
+ */
