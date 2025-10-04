@@ -1,14 +1,16 @@
 package com.example.sporttechapp.screen
 
 import androidx.compose.foundation.layout.Column
-import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.Text
+//import androidx.compose.material3.CircularProgressIndicator
+//import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.collectAsState
-import androidx.compose.runtime.getValue
-import com.example.sporttechapp.SkillUiState
-import com.example.sporttechapp.SkillViewModel
+//import androidx.compose.runtime.collectAsState
+//import androidx.compose.runtime.getValue
+//import com.example.sporttechapp.SkillUiState
+//import com.example.sporttechapp.SkillViewModel
+import com.example.sporttechapp.data.SampleData
 
+/*
 @Composable
 fun SkillsScreen(viewModel: SkillViewModel) {
     val state by viewModel.uiState.collectAsState()
@@ -35,6 +37,7 @@ fun SkillsScreen(viewModel: SkillViewModel) {
     }
 }
 
+*/
 
 
 
@@ -57,7 +60,6 @@ fun SkillsScreen(viewModel: SkillViewModel) {
 
 
 
-/*
 @Composable
 fun SkillsScreen() {
     val allSkills = SampleData.skills
@@ -72,4 +74,3 @@ fun SkillsScreen() {
         SkillSection("Advanced", advancedSkills)
     }
 }
- */
